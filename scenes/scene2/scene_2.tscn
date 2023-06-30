@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2vk1dh2fpwpd"]
+
+[ext_resource type="Script" path="res://scenes/scene2/scene_2.gd" id="1_2ji6t"]
+[ext_resource type="Texture2D" uid="uid://dyvtdti1e12rk" path="res://icon.svg" id="1_juf5w"]
+
+[node name="Scene2" type="Node2D"]
+script = ExtResource("1_2ji6t")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(194, 123)
+texture = ExtResource("1_juf5w")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(208, 439)
+texture = ExtResource("1_juf5w")
+
+[node name="Icon3" type="Sprite2D" parent="."]
+position = Vector2(941, 137)
+texture = ExtResource("1_juf5w")
+
+[node name="Icon4" type="Sprite2D" parent="."]
+position = Vector2(926, 421)
+texture = ExtResource("1_juf5w")
+
+[node name="Icon5" type="Sprite2D" parent="."]
+position = Vector2(563, 291)
+texture = ExtResource("1_juf5w")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 22.0
+offset_top = 22.0
+offset_right = 67.0
+offset_bottom = 53.0
+text = "back"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,13 @@
+2a60927148abd1d33b818b535e306557
+::res://::1688168814
+icon.svg::CompressedTexture2D::8888306222961421320::1688148856::1688148872::1::::<><>::
+main.gd::GDScript::-1::1688168710::0::1::::<>Node2D<>::
+main.tscn::PackedScene::3135042793171329972::1688168710::0::1::::<><>::res://main.gd
+::res://scenes/::1688168729
+::res://scenes/scene1/::1688168656
+scene_1.tscn::PackedScene::7580825857136733471::1688168656::0::1::::<><>::uid://dyvtdti1e12rk
+::res://scenes/scene2/::1688168657
+scene_2.tscn::PackedScene::9098366532328359745::1688168657::0::1::::<><>::uid://dyvtdti1e12rk
+::res://scenes/SceneManager/::1688168814
+SceneManager.gd::GDScript::-1::1688168656::0::1::::<>CanvasLayer<>::
+scene_transition.tscn::PackedScene::5913510790250967322::1688168729::0::1::::<><>::res://scenes/SceneTransition/scene_transition.gd

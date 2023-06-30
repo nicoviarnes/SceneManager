@@ -1,0 +1,9 @@
+res://scenes/SceneTransition/scene_transition.tscn
+res://scenes/SceneTransition/scene_transition.gd
+res://scenes/scene1/scene_1.tscn
+res://scenes/scene2/scene_2.tscn
+res://main.tscn
+res://main.gd
+res://scenes/SceneManager/SceneManager.tscn
+res://scenes/scene2/scene_2.gd
+res://scenes/scene1/scene_1.gd

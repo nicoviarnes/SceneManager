@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkwvxxp1hwtce"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_ir136"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_ir136")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 523.0
+offset_top = 156.0
+offset_right = 589.0
+offset_bottom = 187.0
+text = "scene 1"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 523.0
+offset_top = 259.0
+offset_right = 589.0
+offset_bottom = 290.0
+text = "scene 2"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
